@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .one{
+            display: inline grid;
+            grid-template-columns: auto auto auto;
+        }
+        .two{
+            grid-column-gap: 10px;
+            grid-row-gap: 10px;
+            border: 2px solid black;
+        }
+        #three1{
+            grid-row-start: 1;
+            grid-row-end: 4;
+            grid-column-start: 1;
+            grid-column-end: 2;
+            background-color: greenyellow;
+        }
+        #three2{
+            grid-row-start: 1;
+            grid-row-end: 2;
+            grid-column-start: 2;
+            grid-column-end: 4;
+            background-color: greenyellow;
+        }
+        #three3{
+            grid-row-start: 1;
+            grid-row-end: 2;
+            grid-column-start: 4;
+            grid-column-end: 5;
+            background-color: red;
+        }
+        #three4{
+            grid-row-start: 2;
+            grid-row-end: 3;
+            grid-column-start: 2;
+            grid-column-end: 3;
+            background-color: yellow;
+        }
+        #three5{
+            grid-row-start: 2;
+            grid-row-end: 3;
+            grid-column-start: 3;
+            grid-column-end: 4;
+            background-color: red;
+        }
+        #three6{
+            grid-row-start: 2;
+            grid-row-end: 4;
+            grid-column-start: 4;
+            grid-column-end: 5;
+            background-color: greenyellow;
+        }
+        #three7{
+            grid-row-start: 3;
+            grid-row-end: 4;
+            grid-column-start: 2;
+            grid-column-end: 3;
+            background-color: red;
+        }
+        #three8{
+            grid-row-start: 3;
+            grid-row-end: 4;
+            grid-column-start: 3;
+            grid-column-end: 4;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="one">
+        <div class="two" id="three1">1</div>
+        <div class="two" id="three2">2</div>
+        <div class="two" id="three3">3</div>
+        <div class="two" id="three4">4</div>
+        <div class="two" id="three5">5</div>
+        <div class="two" id="three6">6</div>
+        <div class="two" id="three7">7</div>
+        <div class="two" id="three8">8</div>
+    </div>
+</body>
+</html>

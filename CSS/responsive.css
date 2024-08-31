@@ -1,0 +1,438 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+}
+/* part1 */
+#part1{
+    height: 100px;
+    width: 100%;
+    background-color: aquamarine;
+    font-size: 35px;
+}
+/* part2 */
+#part2{
+    height: 100px;
+    width: 100%;
+    background-color:blueviolet;
+    font-size: 35px;
+}
+/* part3 */
+#part3{
+    height: 500px;
+    width: 100%;
+    background-image: url(https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?cs=srgb&dl=pexels-souvenirpixels-414612.jpg&fm=jpg   );
+    background-size: cover;
+}
+#part3 .l1{
+    font-size: 50px;
+    color: aliceblue;
+    margin-left: 50px;
+}
+#part3 .l2{
+    font-size: 30px;
+    color: aliceblue;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+#part3 .l3{
+    font-size: 20px;
+    color: aliceblue;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+#part3 .l4{
+    font-size: 10px;
+    color: aliceblue;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+/* part4 */
+#part4{
+    height:80px;
+    width: 100%;
+    background-color: rgb(0, 106, 255);
+    font-size: 30px;
+}
+/* part5 */
+#part5{
+    height: 80px;
+    width: 100%;
+    background-color:chartreuse;
+    font-size: 30px;
+}
+/* part6 */
+#part6{
+    height: 80px;
+    width: 100%;
+    background-color:chocolate;
+    font-size: 30px;
+}
+/* part7 */
+#part7{
+    height: 90px;
+    width: 100%;
+    background-color:cornflowerblue;
+    font-size: 30px;
+}
+/* part8 */
+#part8{
+    height: 90px;
+    width: 100%;
+    background-color:crimson;
+    font-size: 30px;
+}
+/* part9 */
+#part9{
+    height: 90px;
+    width: 100%;
+    background-color:darkred;
+    font-size: 30px;
+}
+/* part10 */
+#part10{
+    height: 90px;
+    width: 100%;
+    background-color:lightpink;
+    font-size: 30px;
+}
+@media (min-width:481px) and (max-width:768px) {
+    .main{
+        height: 100vh;
+        width: 100%;
+        background-color: aqua;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    /* part1 */
+#part1{
+    height: 85px;
+    width: 100%;
+    background-color: aquamarine;
+    font-size: 17px;
+    font-weight: bold;
+}
+/* part2 */
+#part2{
+    height: 89px;
+    width: 100%;
+    background-color:blueviolet;
+    font-size: 18px;
+    font-weight: bold;
+}
+/* part3 */
+#part3{
+    height: 235px;
+    width: 100%;
+    background-image: url(https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?cs=srgb&dl=pexels-souvenirpixels-414612.jpg&fm=jpg   );
+    background-size: cover;
+}
+#part3 .l1{
+    font-size: 18px;
+    color: aliceblue;
+    margin-left: 10px;
+}
+#part3 .l2{
+    font-size: 13px;
+    color: aliceblue;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#part3 .l3{
+    font-size: 11px;
+    color: aliceblue;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#part3 .l4{
+    font-size: 10px;
+    color: aliceblue;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+/* part4 */
+#part4{
+    height:70px;
+    width: 100%;
+    background-color: rgb(0, 106, 255);
+    font-size: 15px;
+    font-weight: bold;
+}
+/* part5 */
+#part5{
+    height: 71px;
+    width: 100%;
+    background-color:chartreuse;
+    font-size: 15px;
+    font-weight:bold ;
+}
+/* part6 */
+#part6{
+    height: 70px;
+    width: 100%;
+    background-color:chocolate;
+    font-size: 16px;
+    font-weight: bold;
+}
+/* part7 */
+#part7{
+    height: 77px;
+    width: 50%;
+    background-color:cornflowerblue;
+    font-size: 11.5px;
+    font-weight: bold;
+}
+/* part8 */
+#part8{
+    height: 77px;
+    width: 50%;
+    background-color:crimson;
+    font-size: 11px;
+    font-weight:bold ;
+}
+/* part9 */
+#part9{
+    height: 72px;
+    width: 50%;
+    background-color:mediumaquamarine;
+    font-size: 11.5px;
+    font-weight: bold;
+}
+/* part10 */
+#part10{
+    height: 71px;
+    width: 50%;
+    background-color:lightpink;
+    font-size: 11.5px;
+    font-weight: bold;
+}
+}
+@media (min-width:769px) and (max-width:1024px){
+    .main{
+        height: 100vh;
+        width: 100%;
+        background-color: aqua;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    /* part1 */
+#part1{
+    height: 140px;
+    width: 50%;
+    background-color: aquamarine;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* part2 */
+#part2{
+    height: 140px;
+    width: 50%;
+    background-color:blueviolet;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* part3 */
+#part3{
+    height: 380px;
+    width: 100%;
+    background-image: url(https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?cs=srgb&dl=pexels-souvenirpixels-414612.jpg&fm=jpg   );
+    background-size: cover;
+}
+#part3 .l1{
+    font-size: 30px;
+    color: aliceblue;
+    margin-left: 10px;
+}
+#part3 .l2{
+    font-size: 22px;
+    color: aliceblue;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#part3 .l3{
+    font-size: 18px;
+    color: aliceblue;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#part3 .l4{
+    font-size: 14px;
+    color: aliceblue;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+/* part4 */
+#part4{
+    height:150px;
+    width: 33.33%;
+    background-color: rgb(0, 106, 255);
+    font-size: 16.2px;
+    font-weight: bold;
+}
+/* part5 */
+#part5{
+    height: 150px;
+    width: 33.33%;
+    background-color:chartreuse;
+    font-size: 16.2px;
+    font-weight:bold ;
+}
+/* part6 */
+#part6{
+    height: 150px;
+    width: 33.33%;
+    background-color:chocolate;
+    font-size: 16.5px;
+    font-weight: bold;
+}
+/* part7 */
+#part7{
+    height: 100px;
+    width: 25%;
+    background-color:cornflowerblue;
+    font-size: 11.5px;
+    font-weight: bold;
+}
+/* part8 */
+#part8{
+    height: 100px;
+    width: 25%;
+    background-color:crimson;
+    font-size: 11px;
+    font-weight:bold ;
+}
+/* part9 */
+#part9{
+    height: 100px;
+    width: 25%;
+    background-color:mediumaquamarine;
+    font-size: 11.5px;
+    font-weight: bold;
+}
+/* part10 */
+#part10{
+    height: 100px;
+    width: 25%;
+    background-color:lightpink;
+    font-size: 11.5px;
+    font-weight: bold;
+}
+}
+@media (min-width:320px) and (max-width:480px) {
+    .main{
+        height: 100vh;
+        width: 100%;
+        background-color: aqua;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    /* part1 */
+#part1{
+    height: 80px;
+    width: 100%;
+    background-color: aquamarine;
+    font-size: 14px;
+    font-weight: bold;
+}
+/* part2 */
+#part2{
+    height: 80px;
+    width: 100%;
+    background-color:blueviolet;
+    font-size: 13.5px;
+    font-weight: bold;
+}
+/* part3 */
+#part3{
+    height: 225px;
+    width: 100%;
+    background-image: url(https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?cs=srgb&dl=pexels-souvenirpixels-414612.jpg&fm=jpg   );
+    background-size: cover;
+}
+#part3 .l1{
+    font-size: 18px;
+    color: aliceblue;
+    margin-left: 10px;
+}
+#part3 .l2{
+    font-size: 13px;
+    color: aliceblue;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#part3 .l3{
+    font-size: 11px;
+    color: aliceblue;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#part3 .l4{
+    font-size: 10px;
+    color: aliceblue;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+/* part4 */
+#part4{
+    height:65px;
+    width: 100%;
+    background-color: rgb(0, 106, 255);
+    font-size: 12.6px;
+    font-weight: bold;
+}
+/* part5 */
+#part5{
+    height: 72px;
+    width: 100%;
+    background-color:chartreuse;
+    font-size: 12.4px;
+    font-weight:bold ;
+}
+/* part6 */
+#part6{
+    height: 67px;
+    width: 100%;
+    background-color:chocolate;
+    font-size: 12.7px;
+    font-weight: bold;
+}
+/* part7 */
+#part7{
+    height: 79px;
+    width: 100%;
+    background-color:cornflowerblue;
+    font-size: 14px;
+    font-weight: bold;
+}
+/* part8 */
+#part8{
+    height: 77px;
+    width: 100%;
+    background-color:crimson;
+    font-size: 12px;
+    font-weight:bold ;
+}
+/* part9 */
+#part9{
+    height: 78px;
+    width: 100%;
+    background-color:mediumaquamarine;
+    font-size: 14px;
+    font-weight: bold;
+}
+/* part10 */
+#part10{
+    height: 73px;
+    width: 100%;
+    background-color:lightpink;
+    font-size: 13.5px;
+    font-weight: bold;
+}
+}

@@ -1,0 +1,503 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*first header*/
+header{
+    height: 150px;
+    width: 100%;
+    display: flex;
+}
+/*first header first section*/
+header .one{
+    height: inherit;
+    width: 25%;
+}
+header .one{
+    height: inherit;
+    width: 25%;
+    display: flex;
+}
+header .one img{
+    height: 120px;
+    width: 120px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+header .one .l1{
+    font-size: 25px;
+    font-weight: 800;
+    margin-top: 60px;
+}
+/*first header second section*/
+header .two{
+    height: inherit;
+    width: 75%;
+}
+/*first header second section first line*/
+header .two .l1{
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+header .two .l1 img{
+    height: 75px;
+    width: 75px;
+    margin-left: 850px;
+}
+header .two .l1 .con{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+header .two .l1 button{
+    height: 50px;
+    width: 150px;
+    background-image:linear-gradient(45deg,purple,red);
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    font-size: large;
+    color: aliceblue;
+    margin-top: 15px;
+    margin-left: 150px;
+    box-shadow: 2px 2px 5px black;
+}
+/*first header second section second line*/
+header .two .l2{
+    height: 50%;
+    width: 100%;
+}
+header .two .l2 a{
+    text-decoration-line: none;
+    font-size: x-large;
+    margin-left: 90px;
+    color:black;
+    font-weight: bold;
+}
+/*first main section*/
+.main1{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://cdn.pixabay.com/photo/2014/12/30/13/19/girls-583917_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main1 .edit{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(240, 248, 255, 0.302);
+}
+.main1 .edit .l1{
+    font-size: 40px;
+    color: crimson;
+    padding-top: 250px;
+    padding-left: 350px;
+}
+.main1 .edit .l2{
+    font-size: 80px;
+    color: black;
+    font-weight: bolder;
+    padding-top: 10px;
+    padding-left: 350px;
+}
+.main1 .edit .l3 button{
+    font-size: 20px;
+    font-weight: bold;
+    height: 90px;
+    width: 200px;
+    background-image:linear-gradient(45deg,blue,red);
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    color: aliceblue;
+    box-shadow: 2px 2px 5px black;
+    margin-top: 40px;
+    margin-left: 400px;
+}
+/*second header*/
+/*second header first section*/
+.h2 .one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.one .line{
+    height: 2px ;
+    width: 50%;
+    background-color: red;
+}
+.one .text{
+    font-size: larger;
+    font-weight: bold;
+}
+/*second header second section*/
+.h2 .two{
+    height: 200px;
+    width: 100%;
+    display: flex;
+}
+.h2 .two img{
+    height: 200px;
+    width: 200px;
+}
+/*first main section*/
+.main2{
+    margin-top: 50px;
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://cdn.i.haymarketmedia.asia/?n=campaign-india%2Fcontent%2FRed-Fort%2CDelhi.JPG&h=630&w=1200&q=75&v=20170226&c=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main2 .edit{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(220, 20, 60, 0.677);
+}
+.main2 .edit .l1{
+    font-size: 90px;
+    text-align: center;
+    padding-top: 200px;
+    font-weight: bold;
+}
+.main2 .edit .l2{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+    color: aliceblue;
+}
+.main2 .edit .l3{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+    color: aliceblue;
+}
+.main2 .edit .l4 img{
+    margin-left: 850px;
+    margin-top: 20px;
+}
+.main2 .edit .l5{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    color: aliceblue;
+}
+.main2 .edit .l6 button{
+    font-size: large;
+    height: 60px;
+    width: 250px;
+    background-color: black;
+    color: aliceblue;
+    margin-top: 100px;
+    margin-left: 850px;
+}
+/*thired header*/
+.thired{
+    display: inline;
+}
+/*thired header first section*/
+.thired .one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+.thired .one .line{
+    height: 3px;
+    background-color: crimson;
+}
+.thired .one .text{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+/*thired header second section*/
+.thired .two{
+    height: 70px;
+    width: 100%;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5px;
+    margin-top: 50px;
+}
+.thired .two .line{
+    height: 3px;
+    width: 15%;
+    background-color: crimson;
+}
+/*thired header thired section*/
+.thired .three .i1{
+    margin-left: 300px;
+}
+.thired .three .i2{
+    margin-left: 170px;
+}
+.thired .three .i3{
+    margin-left: 160px;
+}
+.thired .three .i4{
+    margin-left: 180px;
+}
+.thired .three .i5{
+    margin-left: 160px;
+}
+/*thired header fourth section*/
+.thired .four{
+    display: flex;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.ab1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 270px;
+    margin-top: 30px;
+}
+.ab2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 140px;
+    margin-top: 30px;
+}
+.ab3 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+.ab4 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 120px;
+    margin-top: 30px;
+}
+.ab5 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 130px;
+    margin-top: 30px;
+}
+/*thired header fifth section*/
+.thired .five button{
+    height: 50px;
+    width: 130px;
+    background-color: crimson;
+    color: aliceblue;
+    font-size: large;
+    border-radius: 20%;
+}
+.b1{
+    margin-left: 300px;
+    margin-top: 20px;
+}
+.b2{
+    margin-left: 180px;
+    margin-top: 20px;
+}
+.b3{
+    margin-left: 160px;
+    margin-top: 20px;
+}
+.b4{
+    margin-left: 170px;
+    margin-top: 20px;
+}
+.b5{
+    margin-left: 170px;
+    margin-top: 20px;
+}
+/*thired main section*/
+.main3{
+    height: 80vh;
+    width: 100%;
+    background-image: url(https://t3.ftcdn.net/jpg/04/46/02/22/360_F_446022269_Rv6eeteXwKdckZVDnXItU7Zn3ubSWFVc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 20px;
+}
+.main3 .edit{
+    height: inherit;
+    width: inherit;
+    background-color: rgba(220, 20, 60, 0.694);
+}
+.main3 .edit .one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.main3 .edit .one .line{
+    height: 3px;
+    background-color: aliceblue;
+    width: 30%;
+}
+.main3 .edit .one .text{
+    font-size: 50px;
+}
+.main3 .edit .two{
+    display: flex;
+    padding-top: 50px;
+}
+.main3 .edit .two .sec1{
+    height: 550px;
+    width: 40%;
+}
+.main3 .edit .two .sec1 img{
+    height: 450px;
+    width: 650px;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+.main3 .edit .two .sec2{
+    height: 550px;
+    width: 60%;
+}
+.main3 .edit .two .sec2 .l1 a{
+    text-decoration-line: none;
+    font-size: x-large;
+    color: black;
+    font-weight: bold;
+    padding-left: 50px;
+}
+.main3 .edit .two .sec2 .l2{
+    font-size: large;
+    color: aliceblue;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.main3 .edit .two .sec2 .l3{
+    font-size: large;
+    color: aliceblue;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-style: italic;
+}
+.main3 .edit .two .sec2 .l4{
+    font-size: large;
+    color: black;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.main3 .edit .two .sec2 .l5{
+    font-size: large;
+    color: black;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.main3 .edit .two .sec2 .l6 button{
+    height: 50px;
+    width: 200px;
+    font-size: large;
+    color: aliceblue;
+    background-color: black;
+    border-radius: 10%;
+    margin-top: 50px;
+    margin-left: 400px;
+}
+/*forth main section*/
+.edit4{
+    height: 600px;
+    width: 100%;
+    background-color: aliceblue;
+}
+.edit4 .one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.edit4 .one .line{
+    height: 2px;
+    width: 30%;
+    background-color: crimson;
+}
+.edit4 .one .text{
+    font-size: 50px;
+    font-weight: bold;
+}
+.edit4 .two{
+    height: 500px;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+}
+.edit4 .two .sec1 img{
+    height: inherit;
+    width: 600px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.edit4 .two .sec2 .l1{
+    font-size: 21px;
+    color: black;
+    font-weight: bold;
+    margin-left: 100px;
+}
+/*fifth main section*/
+.main5{
+    height: 600px;
+    width: 100%;
+    background-color: rgba(220, 20, 60, 0.933);
+}
+.main5 .one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.main5 .one .line{
+    height: 2px;
+    width: 30%;
+    background-color: aliceblue;
+}
+.main5 .one .text{
+    font-size: 70px;
+    font-weight: 200;
+}
+.main5 .two{
+    font-size: 20px;
+    color: aliceblue;
+    margin-left: 350px;
+}
+.main5 input{
+    height: 50px;
+    width: 400px;
+    background-color: black;
+    margin-left: 350px;
+    margin-top: 80px;
+    font-size: large;
+}
+.main5 button{
+    height:50px ;
+    width: 400px;
+    background-color: black;
+    font-size: xx-large;
+    color: aliceblue;
+    margin-left: 350px;
+}
+/*sixth main section*/
+.main6{
+    height: 60vh;
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+.main6 .s1{
+    margin-left: 100px;
+}
+.main6 p{
+    font-size: 20px;
+}
+.main6 .l1{
+    font-size: 30px;
+}
+.main6 .s2{
+    margin-left: 100px;
+}
+.main6 .s3{
+    margin-left: 100px;
+}

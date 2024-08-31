@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-image: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .box{
+            height: 500px;
+            width: 800px;
+            background-image: url(https://images.pond5.com/particles-side-2-colors-loop-after-effect-263869259_iconl.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            top: 200px;
+            left: 550px;
+            border-radius: 10%;
+            display: flex;
+        }
+        /* part1 start  */
+        .part1{
+            height: inherit;
+            width: 40%;
+            /* background-color: antiquewhite; */
+        }
+        .photo{
+            height: 80%;
+            width: 75%;
+            background-image: url(https://wallpapers.com/images/hd/cute-anime-boy-profile-picture-k2i3pwrorzcmosni.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            top: 50px;
+            left: 50px;
+            border-radius: 10%;
+        }
+        /* part 2 start  */
+        .part2{
+            height: inherit;
+            width: 60%;
+            /* background-color: aqua; */
+            display: inline;
+        }
+        .name{
+            color:aliceblue;
+            font-size: 40px;
+            font-weight: bold;
+            position: relative;
+            top: 5pc;
+            left: 10px;
+        }
+        label{
+            color: aliceblue;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        .e{
+            position: relative;
+            top: 100px;
+            left: 10px;
+        }
+        input{
+            height: 40px;
+            width: 50%;
+            background-color:gray ;
+            border: none;
+        }
+        input:hover{
+            border: 3px solid black;
+        }
+        .l{
+            position: relative;
+            top: 120px;
+            left: 10px;
+        }
+        .o{
+            position: relative;
+            top: 150px;
+            left: 10px;
+        }
+        .a{
+            position: relative;
+            top: 170px;
+            left: 10px;
+        }
+        textarea{
+            background-color: gray;
+        }
+        textarea::placeholder{
+            font-size: 25px;
+            color: lightgrey;
+        }
+        textarea:hover{
+            border: 3px solid black;
+        }
+        input::placeholder{
+            font-size: 20px;
+            color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <!-- part 1 start  -->
+        <div class="part1">
+            <div class="photo"></div>
+        </div>
+        <!-- part 2 start  -->
+        <div class="part2">
+            <div class="name">JASON WALKER</div>
+            <label for="" class="e">Email:</label>
+            <input type="email" name="" id="" class="e" placeholder="Email"> <br>
+            <label for="" class="l">Location:</label>
+            <input type="text" name="" id="" class="l" placeholder="Location"> <br>
+            <label for="" class="o">Occupation</label>
+            <input type="text" name="" id="" class="o" placeholder="Occupation"> <br>
+            <label for="" class="a">About me:</label>
+            <textarea name="" id="" rows="5" cols="25" class="a" placeholder="about me"></textarea>
+        </div>
+    </div>
+</body>
+</html>

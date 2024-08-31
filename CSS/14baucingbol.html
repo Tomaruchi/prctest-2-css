@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            background-image: linear-gradient(red, orange);
+            position: relative;
+            box-shadow: 2px 30px 30px black;
+            animation: bouncing 3s ease-in-out infinite;
+        }
+
+        @keyframes bouncing {
+            0% {
+                top: 0;
+                left: 0;
+            }
+
+            20% {
+                top: 150px;
+                left: 0;
+            }
+            30%{
+                top: 0;
+                left: 20%;
+            }
+            40%{
+                top: 150px;
+                left: 20%;
+            }
+            50%{
+                top: 0;
+                left: 50%;
+            }
+            100%{
+                top: 150px;
+                left: 50%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+</body>
+
+</html>
